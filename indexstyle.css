@@ -1,0 +1,33 @@
+body
+{
+    background-color: wheat;
+    height: 100%;
+    width: 100%;
+ border: 5px solid rgb(237, 237, 245); 
+ background: linear-gradient(black 70%, white); 
+ background-repeat: no-repeat; 
+}
+
+.ones 
+{
+    box-sizing: border-box;
+    box-shadow: violet;
+    text-align: center;
+  border: 9px solid rgb(241, 156, 156); 
+
+}
+h2{
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(grey 60%, rgb(86, 86, 199) 50%);
+    text-transform: uppercase;
+    text-overflow: unset;
+}
+.im1{
+    justify-content: center;
+}
+.im1 img{
+    justify-content: center;
+    height: 5%;
+    width: 30%;
+}
