@@ -1,10 +1,11 @@
 body
 {
+    overflow: hidden;
     background-color: wheat;
     height: 100%;
     width: 100%;
  border: 5px solid rgb(237, 237, 245); 
- background: linear-gradient(black 70%, white); 
+ background: linear-gradient(rgb(41, 18, 18) 30%,grey, white); 
  background-repeat: no-repeat; 
 }
 
@@ -24,10 +25,51 @@ h2{
     text-overflow: unset;
 }
 .im1{
+    padding-top: 20%;
+    display: inline;
     justify-content: center;
+    padding: 30%;
 }
 .im1 img{
+    border: 10px solid white;
+    border-radius: 50px;
+    text-align: center;
+    display: inline;
     justify-content: center;
-    height: 5%;
+    height: 20%;
     width: 30%;
+    
+}
+.touch{
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.two{
+    align-content: center;
+    display: inline-flexbox;
+    height: 200%;
+    width: 100%;
+    align-items: center;
+}
+.two img{
+    padding-left: 20%;
+    align-content: center;
+    height: 100px;
+    display: inline;
+    float: center;
+}
+.two img:hover{
+    width: 35%;
+    height: 90%;
+}
+.nex {
+    text-decoration: none;
+    text-transform: uppercase;
+    text-decoration-color: none;
+    font-weight: bold;
+    text-align: right;
+    font-style: italic;
+    font: message-box;
 }
