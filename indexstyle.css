@@ -4,7 +4,6 @@ body
     background-color: wheat;
     height: 100%;
     width: 100%;
- border: 5px solid rgb(237, 237, 245); 
  background: linear-gradient(rgb(41, 18, 18) 30%,grey, white); 
  background-repeat: no-repeat; 
 }
@@ -36,8 +35,8 @@ h2{
     text-align: center;
     display: inline;
     justify-content: center;
-    height: 20%;
-    width: 30%;
+    height: 25%;
+    width: 35%;
     
 }
 .touch{
@@ -47,6 +46,9 @@ h2{
 }
 
 .two{
+    border: 10px solid red;
+    padding-right: 5%;
+    padding-left: 35%;
     align-content: center;
     display: inline-flexbox;
     height: 200%;
@@ -54,15 +56,20 @@ h2{
     align-items: center;
 }
 .two img{
-    padding-left: 20%;
+    justify-items: center;
+    border-radius: 15px;
+    border: 5px solid pink;
+    position: relative;
+    padding: 0;
     align-content: center;
     height: 100px;
-    display: inline;
-    float: center;
+    display: inline-block;
+    float: none;
+    
 }
 .two img:hover{
-    width: 35%;
-    height: 90%;
+    width: 40%;
+    height: 100%;
 }
 .nex {
     text-decoration: none;
